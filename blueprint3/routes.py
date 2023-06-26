@@ -1,8 +1,10 @@
-from flask import render_template, redirect, url_for
+from flask import render_template, redirect, url_for, Blueprint, render_template
 from flask_login import login_user, logout_user, login_required
 from .forms import RegistrationForm, LoginForm
 from .models import User
-from . import blueprint3
+
+# blueprint3 = Blueprint('blueprint3', __name__)
+blueprint3 = Blueprint('blueprint3', __name__, template_folder='blueprint3_folder')
 
 @blueprint3.route('/register', methods=['GET', 'POST'])
 def register():
