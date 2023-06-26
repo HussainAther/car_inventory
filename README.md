@@ -68,6 +68,7 @@ To get started with the Car Collection API, follow these steps:
     ```shell
     export FLASK_APP=run.py
     ```
+
 or on Windows
 
     ```shell
@@ -79,7 +80,9 @@ or on Windows
     ```shell
     export FLASK_ENV=development
     ```
+
 or on Windows
+
     ```shell
     set FLASK_ENV=development
     ```
