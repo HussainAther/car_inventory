@@ -69,13 +69,19 @@ To get started with the Car Collection API, follow these steps:
     export FLASK_APP=run.py
     ```
 
-6. Run the application:
+6. To set the app to debug mode.
+
+    ```shell
+    export FLASK_ENV=development
+    ```
+
+7. Run the application:
 
    ```shell
    flask run
    ```
 
-7. Open your web browser and access the API at `http://localhost:5000` or the given URL.
+8. Open your web browser and access the API at `http://localhost:5000` or the given URL.
 
 ## Customization
 
