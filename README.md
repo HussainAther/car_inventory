@@ -82,7 +82,7 @@ or on Windows
     ```
 
 or on Windows
-
+    
     ```shell
     set FLASK_ENV=development
     ```
