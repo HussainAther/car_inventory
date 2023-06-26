@@ -18,15 +18,15 @@ The file structure of the project is organized as follows:
 car_inventory/
 ├── blueprint1/
 │   ├── templates_folder/
-│   │   └── (HTML templates for blueprint1)
+│   │   └── index.html
 │   └── routes.py
 ├── blueprint2/
 │   ├── templates_folder/
-│   │   └── (HTML templates for blueprint2)
+│   │   └── index.html
 │   └── routes.py
 ├── static/
 ├── templates/
-│   └── (HTML templates for main package)
+│   └── index.html
 ├── __init__.py
 └── config.py
 ```
