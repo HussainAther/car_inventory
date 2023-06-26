@@ -95,6 +95,12 @@ or on Windows
 
 8. Open your web browser and access the API at `http://localhost:5000` or the given URL.
 
+To view the blueprint files...
+
+`URL/blueprint1/test`
+
+`URL/blueprint2/test`
+
 ## Customization
 
 - Customize the HTML templates in the respective `templates_folder` directories for each blueprint to modify the look and feel of the API pages.
