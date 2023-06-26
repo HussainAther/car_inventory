@@ -1,6 +1,3 @@
-Certainly! Here's an example `README.md` file for your project:
-
-```markdown
 # Car Collection API
 
 The Car Collection API is a web application that allows users to manage and display a collection of cars. It provides endpoints to retrieve, add, update, and delete cars from the collection.
@@ -87,6 +84,4 @@ Contributions to the Car Collection API are welcome! If you find any issues or h
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
 
-Feel free to customize the content of the `README.md` file according to your project's specifics. Include information about how to get started, how to customize the application, and any guidelines for contributions.
