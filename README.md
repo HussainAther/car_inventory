@@ -63,13 +63,19 @@ To get started with the Car Collection API, follow these steps:
 
 4. Configure the application (if needed) by modifying the `config.py` file.
 
-5. Run the application:
+5. Set the `FLASK_APP` environment variable.
+
+    ```shell
+    export FLASK_APP=run.py
+    ```
+
+6. Run the application:
 
    ```shell
    flask run
    ```
 
-6. Open your web browser and access the API at `http://localhost:5000`.
+7. Open your web browser and access the API at `http://localhost:5000`.
 
 ## Customization
 
