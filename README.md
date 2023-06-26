@@ -75,7 +75,7 @@ To get started with the Car Collection API, follow these steps:
    flask run
    ```
 
-7. Open your web browser and access the API at `http://localhost:5000`.
+7. Open your web browser and access the API at `http://localhost:5000` or the given URL.
 
 ## Customization
 
