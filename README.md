@@ -24,9 +24,17 @@ car_inventory/
 │   ├── templates_folder/
 │   │   └── index.html
 │   └── routes.py
+├── blueprint3/
+│   ├── templates_folder/
+│   │   └── register.html
+│   ├── routes.py
+│   ├── forms.py
+│   └── models.py
 ├── static/
 ├── templates/
-│   └── index.html
+│   ├── index.html
+│   ├── login.html
+│   └── register.html
 ├── __init__.py
 └── config.py
 ```
