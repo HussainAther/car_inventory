@@ -6,6 +6,9 @@ from .config import config
 def create_app():
     app = Flask(__name__)
     app.config.from_object(config)
+
+    # Enable debug mode
+    app.debug = True
     
     # Register blueprints
     app.register_blueprint(blueprint1, url_prefix='/blueprint1')
