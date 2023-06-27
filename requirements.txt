@@ -1,4 +1,9 @@
 Flask==2.0.2
 SQLAlchemy==1.4.22
 requests>=2.26.0
-
+Flask-WTF
+Flask-Migrate
+psycopg2
+psycopg2-binary
+email-validator
+python-dotenv
