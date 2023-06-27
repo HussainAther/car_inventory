@@ -43,5 +43,8 @@ def create_app():
                 admin.set_password('password')
                 admin.save()
 
+    # Initialize Flask-Migrate
+    migrate = Migrate(app, db)
+
     return app
 
